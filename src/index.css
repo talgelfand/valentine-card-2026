@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Caveat:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --sky: #d6eaf8;
+  --blush: #f2c6c2;
+  --sakura: #f4a7bb;
+  --sakura-dark: #e8799a;
+  --cream: #fdf5e6;
+  --forest: #5b7f5f;
+  --totoro-gray: #7a8b8b;
+  --totoro-belly: #d5cfc0;
+  --soot: #2c2c2c;
+  --kodama-white: #f0efe8;
+  --torii-red: #c0392b;
+  --heart-red: #e74c6f;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: "Caveat", "Noto Serif JP", cursive, serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(170deg, var(--sky) 0%, #fce4ec 50%, #fff8f0 100%);
+}
